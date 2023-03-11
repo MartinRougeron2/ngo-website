@@ -1,0 +1,287 @@
+/*
+Theme Name: Tourism Guide
+Template: adventure-travelling
+Text Domain: tourism-guide
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-tourism-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Tourism guide theme designed to provide information and resources for travelers who are planning a trip to a particular destination or region. The theme typically features a visually appealing layout with high-quality images and videos that showcase the attractions, landmarks, and destinations that travelers may want to visit. you can also integrate interactive maps that highlight key points of interest, as well as detailed information about transportation options, lodging, and local dining options.In addition to practical information, you can also feature articles on local culture, history, and customs, as well as travel tips and recommendations for things to do and see in the area. The Theme also includes interactive features, such as comment sections, social media sharing buttons, and email subscription forms. These features allow readers to engage with the website owner and other travelers, share content with their friends and family, and receive updates on new posts.Overall, a tourism guide WordPress website is an excellent resource for travelers who are looking for inspiration, information, and resources to plan their next trip. With its visually appealing layout, high-quality images and videos, and interactive features, the website provides an engaging and informative experience for its readers.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, portfolio, photography
+Version: 0.1
+Tested up to: 6.1
+Requires PHP: 7.2
+Requires at least: 5.0
+*/
+
+p {
+  font-size: 16px;
+}
+#main-content p a {
+  text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  color: #122947;
+}
+body,.logo h1{
+  font-family: 'Nunito', sans-serif;
+}
+a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,#theme-sidebar h3,#theme-sidebar a:hover,.main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a{
+  color: #83bd75;
+}
+.search-box i,.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.error-404 [type="submit"],.headerbox,.main-navigation ul ul,.more-btn a,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.blog-info,#slider-post .owl-nav i:hover,.site-info{
+  background: #83bd75;
+}
+.search_inner form.search-form,#static-blog h3{
+  border-color: #83bd75;
+}
+.search-box i,.call i, .email i,p.infotext,.logo a,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.more-btn a,.blog-info,.site-info p,#footer li,#footer li a,#footer .tagcloud a,#footer .textwidget,#footer th, #footer td,caption{
+  color: #fff;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.woocommerce span.onsale,.offer-box i.fas.fa-play:hover{
+  background: #122947;
+}
+body,.page-box p,#theme-sidebar a,.box-info span,#theme-sidebar li,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title{
+  color: #40526a;
+}
+#footer .tagcloud a,#footer th, #footer td,#footer tr,#footer table#wp-calendar{
+  border-color: #fff;
+}
+
+/* MENUS */
+
+.menubar{
+  padding: 15px 0;
+}
+.menubar{
+  background: #fff;
+}
+.main-navigation a {
+  letter-spacing: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+.main-navigation li {
+  padding: 15px 8px;
+}
+.sf-arrows .sf-with-ul{
+  padding: 0;
+}
+.logo, .logo h1 a{
+  text-align: left;
+  color: #000;
+}
+.logo h1 {
+  font-size: 25px;
+}
+.social-media i,.search-box i{
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  width: 47px;
+  height: 47px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 5px;
+  background: #83bd75;
+}
+.search-box i:hover{
+  background: #fff;
+  color: #122947;
+}
+.social-media a i {
+    font-size: 18px;
+}
+.social-media i.fab.fa-facebook-f{
+  background: #3b5998;
+}
+.social-media i.fab.fa-facebook-f:hover{
+  color: #3b5998;
+  background: #83bd75;
+}
+.social-media i.fab.fa-twitter{
+  background: #1da1f2;
+}
+.social-media i.fab.fa-twitter:hover{
+  color: #1da1f2;
+  background: #83bd75;
+}
+.social-media i.fab.fa-instagram{
+  background: #c13584;
+}
+.social-media i.fab.fa-instagram:hover{
+  color: #c13584;
+  background: #83bd75;
+}
+.social-media i.fab.fa-youtube{
+  background: #ff0000;
+}
+.social-media i.fab.fa-youtube:hover{
+  color: #ff0000;
+  background: #83bd75;
+}
+.social-media i.fab.fa-pinterest{
+  background: #e60023;
+}
+.social-media i.fab.fa-pinterest:hover{
+  color: #e60023;
+  background: #83bd75;
+}
+#footer {
+  background: #33302d;
+}
+
+/* SLIDER CSS */
+
+#slider .carousel-caption{
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#slider .inner_carousel{
+  text-align: center;
+}
+#slider .inner_carousel h2{
+  font-size: 50px;
+  border-left: none;
+  text-align: center;
+  padding-left: 0;
+}
+#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #83bd75;
+}
+.more-btn a{
+  font-size: 14px;
+  font-weight: bold;
+}
+.more-btn a:hover{
+  background: #33302d;
+}
+
+/* EXPLORE PLACES CSS */
+
+#travel-offer .cat-box {
+  background: white;
+  padding: 50px 25px;
+}
+#travel-offer {
+    position: relative;
+    margin-top: -6%;
+    z-index: 99;
+}
+
+.cat-inner-box {
+  box-shadow: 0 5px 10px 2px #bbb;
+}
+.offer-box h3 a {
+  font-size: 20px;
+  color: #122947;
+}
+
+nav.woocommerce-MyAccount-navigation ul li a,.offer-box span.entry-date,span.entry-veiw,.box-info i{
+  color: #122947;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  border-color: #122947;
+  box-shadow: 2px 2px 0 0 #122947;
+}
+
+.box-info span,#theme-sidebar a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*preloader */
+
+.center1 {
+    border-left-color: #83bd75;
+    border-top-color: #83bd75;
+}
+.center1 .ring::before{
+    background: #83bd75;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+@media screen and (max-width: 767px){
+  .nav ul li a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a {
+    color: #fff;
+  }
+  .social-media i, .search-box i{
+    width: 38px;
+    height: 38px;
+    padding: 11px 0;
+  }
+  .main-navigation ul ul{
+    background: transparent;
+  }
+  .toggle-nav i {
+    background: #83bd75;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .innermenubox {
+    padding: 0;
+  }
+  .toggle-nav i {
+    background: #83bd75;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .main-navigation ul ul{
+    background: none;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1199px){
+  .social-media i, .search-box i{
+    width: 38px;
+    height: 38px;
+    padding: 11px 0;
+  }
+}
